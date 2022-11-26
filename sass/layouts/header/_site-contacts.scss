@@ -1,0 +1,36 @@
+/* Site contacts */
+ 
+.site-contacts {
+   margin-left: 308px;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+ }
+ 
+ .contacts-link {
+   font-weight: 500;
+   line-height: 1.14;
+   font-size: 14px;
+   letter-spacing: 0.02em;
+   color: var(--title-text-color);
+   display: flex;
+   align-items: center;
+   padding-top: 32px;
+   padding-bottom: 32px;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ 
+ .contacts-icon {
+   margin-right: 8px;
+   fill: currentColor;
+ }
+ 
+ .contacts-link:hover,
+ .contacts-link:focus {
+   color: var(--accent-color);
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ 
+ .contackts-use {
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }

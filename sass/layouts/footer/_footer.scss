@@ -1,0 +1,36 @@
+/* Footer */
+
+.footer {
+   background-color: var(--secondary-background-color);
+   padding-top: 60px;
+   padding-bottom: 60px;
+ }
+ 
+ .footer-container {
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   width: 1200px;
+   gap: 70px;
+ }
+ 
+ .contact-blok {
+   gap: 83px;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   align-items: baseline;
+ }
+ 
+ .address-blok {
+   flex-direction: column;
+   width: 231px;
+   height: 136px;
+   margin: 0;
+   padding: 0;
+ }
+ 
+
+
+ 
