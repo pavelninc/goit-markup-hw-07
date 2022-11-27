@@ -3,19 +3,28 @@
 .heder {
    border-bottom: 1px solid #ececec;
  }
+
+ .heder__container{
+   display: flex;
+   align-items: center;
+ }
  
- .heder-logo {
+ .bloc {
+   margin-right: 92px;
+
+
+ }
+ 
+ .bloc__logo {
    display: block;
    padding-top: 24px;
    padding-bottom: 25px;
-   margin-right: 92px;
- 
    color: var(--primary-text-color);
    font-family: "Raleway", sans-serif;
    font-size: 26px;
    line-height: 1.19;
  }
  
- .heder-logo-web {
+ .logo__icon {
    color: var(--accent-color);
  }

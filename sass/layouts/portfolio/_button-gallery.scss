@@ -5,11 +5,11 @@
    justify-content: center;
  }
  
- .filter .filter-button + .filter-button {
+ .filter .filter__item + .filter__item {
    margin-left: 8px;
  }
  
- .portfolio-button {
+ .filter__button {
    background-color: var(--team-color);
    color: var(--primary-text-color);
    font-family: inherit;

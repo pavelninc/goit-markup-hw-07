@@ -1,10 +1,11 @@
  /* Work */
  
- .section-work {
+ .work {
    padding-bottom: 94px;
+
  }
- 
- .title-work {
+
+ .container__work-title {
    color: var(--primary-text-color);
    font-weight: 700;
    font-size: 36px;
@@ -15,7 +16,7 @@
    margin-bottom: 50px;
  }
  
- .work {
+ .container__work {
    margin-top: 0;
    margin-bottom: 0;
    padding-left: 0;
@@ -23,16 +24,11 @@
    flex-wrap: wrap;
  }
  
- .work-list {
+
+ .container__work-list {
    margin-right: 30px;
    &:nth-child(3n) {
       margin-right: 0;
     }
  }
  
-
- 
- .work-img {
-   width: 370px;
-   height: 294px;
- }

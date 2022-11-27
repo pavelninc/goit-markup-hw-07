@@ -1,9 +1,9 @@
-.site-nav {
+.menu {
    display: flex;
    padding: 0px;
  }
  
- .site-nav .site-item + .site-item {
+ .menu .menu__item + .menu__item{
    margin-left: 50px;
    display: block;
    &:last-child {
@@ -12,16 +12,16 @@
  }
  
  
- .site-item {
+ .menu__item {
    position: relative;
    display: block;
  }
  
- .site-item .site-link-line {
+ .menu__item .menu__link__line {
    color: var(--accent-color);
  }
  
- .site-link-line::after {
+ .menu__link__line::after {
    display: block;
    position: absolute;
    content: "";
@@ -32,7 +32,7 @@
    border-radius: 2px;
  }
  
- .site-nav .site-link {
+ .menu .menu__link {
    display: block;
    color: var(--primary-text-color);
    font-weight: 500;
@@ -50,7 +50,7 @@
  
 
  
- .site-nav .link.current {
+ .menu .link.current {
    color: var(--accent-color);
  }
  

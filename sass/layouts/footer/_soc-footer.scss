@@ -1,11 +1,11 @@
  /* Soc Footer */
  
- .soc-blok {
+ .soc {
    display: block;
    width: 206px;
    height: 136px;
  }
- .soc-footer-title {
+ .soc__title {
    font-weight: 700;
    font-size: 14px;
    line-height: 16px;
@@ -20,17 +20,17 @@
    width: 116px;
    margin-bottom: 20px;
  }
- .soc-footer-list {
+ .soc__list {
    display: flex;
    gap: 10px;
    margin: 0;
    padding: 0;
  }
- .soc-footer-item {
+ .soc__item {
    display: flex;
    border-radius: 50%;
  }
- .soc-footer-link {
+ .soc__link {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -44,7 +44,7 @@
    background-color: var(--accent-color);
    }
  }
- .soc-footer-icon {
+ .soc__icon {
    fill: #fff;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
