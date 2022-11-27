@@ -382,7 +382,7 @@ a {
   padding-bottom: 30px;
 }
 
-.team___hero {
+.team__hero {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -426,7 +426,7 @@ a {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-soc-link:hover .team__soc-icon, .team-soc-link:focus .team__soc-icon {
+.team__soc-link:hover .team__soc-icon, .team__soc-link:focus .team__soc-icon {
   fill: white;
 }
 
@@ -473,7 +473,7 @@ a {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.company-link:hover .company__icon, .company-link:focus .company__icon {
+.company__link:hover .company__icon, .company__link:focus .company__icon {
   fill: var(--accent-color);
 }
 
