@@ -27,6 +27,11 @@
    padding-bottom: 6px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus {
+     background-color: var(--accent-color);
+     color: var(--white-color);
+   }
  }
  .everyone {
    padding-left: 25px;
@@ -35,8 +40,3 @@
    padding-bottom: 6px;
  }
  
- .portfolio-button:hover,
- .portfolio-button:focus {
-   background-color: var(--accent-color);
-   color: var(--white-color);
- }

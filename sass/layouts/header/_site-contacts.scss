@@ -18,6 +18,11 @@
    padding-top: 32px;
    padding-bottom: 32px;
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus {
+     color: var(--accent-color);
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
  }
  
  .contacts-icon {
@@ -25,11 +30,7 @@
    fill: currentColor;
  }
  
- .contacts-link:hover,
- .contacts-link:focus {
-   color: var(--accent-color);
-   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+
  
  .contackts-use {
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

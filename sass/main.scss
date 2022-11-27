@@ -12,8 +12,6 @@
 @import './layouts/header/header-logo';
 @import './layouts/header/site-nav';
 @import './layouts/header/site-contacts';
-@import './layouts/footer';
-
 // Hero
 @import './layouts/hero/hero';
 
@@ -24,15 +22,15 @@
 @import './layouts/studio/company';
 
 // Main Portfolio
-@import './layouts/gallery';
-@import './layouts/button-gallery';
-@import './layouts/work-gallery';
+@import './layouts/portfolio/button-gallery';
+@import './layouts/portfolio/gallery';
+@import './layouts/portfolio/work-gallery';
 
 // Footer
-@import './layouts/footer';
+@import './layouts/footer/footer';
 @import './layouts/footer/studio-footer';
 @import './layouts/footer/soc-footer';
 @import './layouts/footer/subscription-footer';
 
 // Modal
-@import './layouts/modal';
+@import './layouts/modal/modal';

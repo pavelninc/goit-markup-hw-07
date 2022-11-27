@@ -25,11 +25,12 @@
  
  .work-list {
    margin-right: 30px;
+   &:nth-child(3n) {
+      margin-right: 0;
+    }
  }
  
- .work-list:nth-child(3n) {
-   margin-right: 0;
- }
+
  
  .work-img {
    width: 370px;
