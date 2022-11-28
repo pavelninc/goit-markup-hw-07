@@ -1,9 +1,9 @@
-.menu {
+.nav__list {
    display: flex;
    padding: 0px;
  }
  
- .menu .menu__item + .menu__item{
+ .nav__list .nav__item+ .nav__item {
    margin-left: 50px;
    display: block;
    &:last-child {
@@ -12,16 +12,16 @@
  }
  
  
- .menu__item {
+ .nav__item {
    position: relative;
    display: block;
  }
  
- .menu__item .menu__link__line {
+ .nav__item .nav__link__line {
    color: var(--accent-color);
  }
  
- .menu__link__line::after {
+ .nav__link__line::after {
    display: block;
    position: absolute;
    content: "";
@@ -32,7 +32,7 @@
    border-radius: 2px;
  }
  
- .menu .menu__link {
+ .nav__list .nav__link {
    display: block;
    color: var(--primary-text-color);
    font-weight: 500;
@@ -50,7 +50,7 @@
  
 
  
- .menu .link.current {
+ .nav__list .link.current {
    color: var(--accent-color);
  }
  

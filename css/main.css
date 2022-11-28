@@ -85,47 +85,44 @@ a {
   align-items: center;
 }
 
-.bloc {
-  margin-right: 92px;
-}
-
-.bloc__logo {
+.heder__logo {
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
+  margin-right: 92px;
   color: var(--primary-text-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
 }
 
-.logo__icon {
+.heder__logo-icon {
   color: var(--accent-color);
 }
 
-.menu {
+.nav__list {
   display: flex;
   padding: 0px;
 }
 
-.menu .menu__item + .menu__item {
+.nav__list .nav__item + .nav__item {
   margin-left: 50px;
   display: block;
 }
-.menu .menu__item + .menu__item:last-child {
+.nav__list .nav__item + .nav__item:last-child {
   margin-right: 0;
 }
 
-.menu__item {
+.nav__item {
   position: relative;
   display: block;
 }
 
-.menu__item .menu__link__line {
+.nav__item .nav__link__line {
   color: var(--accent-color);
 }
 
-.menu__link__line::after {
+.nav__link__line::after {
   display: block;
   position: absolute;
   content: "";
@@ -136,7 +133,7 @@ a {
   border-radius: 2px;
 }
 
-.menu .menu__link {
+.nav__list .nav__link {
   display: block;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -147,11 +144,11 @@ a {
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu .menu__link:hover, .menu .menu__link:focus {
+.nav__list .nav__link:hover, .nav__list .nav__link:focus {
   color: var(--accent-color);
 }
 
-.menu .link.current {
+.nav__list .link.current {
   color: var(--accent-color);
 }
 
@@ -208,7 +205,7 @@ a {
   text-align: center;
 }
 
-.container__title {
+.hero__title {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -223,7 +220,7 @@ a {
   max-width: 696px;
 }
 
-.container__button {
+.hero__button {
   background-color: var(--accent-color);
   color: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -240,7 +237,7 @@ a {
   border-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.container__button:hover, .container__button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--button-color);
 }
 
@@ -250,20 +247,20 @@ a {
   padding-bottom: 94px;
 }
 
-.container__advantage {
+.advantage__list {
   display: flex;
 }
 
-.container__advantage-list {
+.advantage__item {
   flex-basis: 270px;
   text-align: left;
 }
 
-.container__advantage .container__advantage-list + .container__advantage-list {
+.advantage .advantage__item + .advantage__item {
   margin-left: 30px;
 }
 
-.container__advantage-list::before {
+.advantage__item::before {
   display: block;
   content: "";
   height: 120px;
@@ -291,7 +288,7 @@ a {
   background-image: url(../images/astronaut\ .svg);
 }
 
-.container__advantage-title {
+.advantage__title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -302,7 +299,7 @@ a {
   margin-bottom: 10px;
 }
 
-.container__advantage-text {
+.advantage__text {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -316,7 +313,7 @@ a {
   padding-bottom: 94px;
 }
 
-.container__work-title {
+.work__title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -327,7 +324,7 @@ a {
   margin-bottom: 50px;
 }
 
-.container__work {
+.work__list {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -335,10 +332,10 @@ a {
   flex-wrap: wrap;
 }
 
-.container__work-list {
+.work__item {
   margin-right: 30px;
 }
-.container__work-list:nth-child(3n) {
+.work__item:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -509,6 +506,7 @@ a {
 .filter__button:hover, .filter__button:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .everyone {
@@ -766,11 +764,12 @@ a {
 
 /* Subscription-Footer */
 .subscription__text {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   margin-bottom: 20px;
 }
@@ -876,8 +875,6 @@ a {
 
 .modal__close-icon {
   position: absolute;
-  width: 18px;
-  height: 18px;
   fill: #000000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -923,7 +920,7 @@ a {
 .modal__input:focus {
   border-color: var(--accent-color);
 }
-.modal__input:focus + .modal-input-icon {
+.modal__input:focus + .modal__input-icon {
   fill: var(--accent-color);
 }
 
